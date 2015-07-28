@@ -40,8 +40,6 @@ public class DetailActivity extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.detail, menu);
 
-        MenuItem item = menu.findItem(R.id.menu_item_share);
-
         return true;
     }
 

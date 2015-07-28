@@ -41,6 +41,7 @@ public class ForecastFragment extends Fragment{
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        Log.d("MF", "Setting up sunshine");
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
     }
